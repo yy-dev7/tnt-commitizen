@@ -1,0 +1,21 @@
+{
+  "name": "tnt-commitizen",
+  "version": "1.0.0",
+  "description": "git规范提交的工具",
+  "scripts": {
+    "postinstall": "./installation/postinstall.js",
+    "postuninstall": "./installation/postuninstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gcz": "./bin/gcz",
+    "gcz-init": "./bin/gcz-init"
+  },
+  "author": "mervynyang",
+  "license": "ISC",
+  "dependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "commitizen": "^4.0.5",
+    "cz-customizable": "^6.2.0"
+  }
+}
