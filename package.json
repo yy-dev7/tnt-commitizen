@@ -1,6 +1,6 @@
 {
   "name": "tnt-commitizen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git规范提交的工具",
   "scripts": {
     "postinstall": "node ./installation/postinstall.js",
