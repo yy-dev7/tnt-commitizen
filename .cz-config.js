@@ -50,5 +50,7 @@ module.exports = {
 
   skipQuestions: ['footer'],
 
-  allowBreakingChanges: ["feat", "fix"]
+  allowBreakingChanges: ["feat", "fix"],
+
+  subjectLimit: 100,
 };
