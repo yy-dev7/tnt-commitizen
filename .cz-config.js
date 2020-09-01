@@ -24,7 +24,7 @@ module.exports = {
     },
     {
       value: 'refactor',
-      name: '🪓  refactor: A code change that neither fixes a bug nor adds a feature'
+      name: '🪓 refactor: A code change that neither fixes a bug nor adds a feature'
     },
     {
       value: 'docs',
