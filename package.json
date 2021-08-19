@@ -1,6 +1,6 @@
 {
   "name": "tnt-commitizen",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "git规范提交的工具",
   "scripts": {
     "postinstall": "node ./installation/postinstall.js",
@@ -14,8 +14,6 @@
   "author": "mervynyang",
   "license": "ISC",
   "dependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "commitizen": "^4.0.5",
-    "cz-customizable": "^6.2.0"
+    "inquirer": "^8.1.2"
   }
 }

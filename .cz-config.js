@@ -4,43 +4,43 @@ module.exports = {
   types: [
     {
       value: 'WIP',
-      name: '🖌  WIP:      Work in progress'
+      name: '🖌  WIP:      还在进行中'
     },
     {
       value: 'feat',
-      name: '🍺 feat:     A new feature'
+      name: '🍺 feat:     完成新功能'
     },
     {
       value: 'fix',
-      name: '🐞 fix:      A bug fix'
+      name: '🐞 fix:      修复了bug'
     },
     {
       value: 'build',
-      name: '🛠  build:    Changes that affect the build system or external dependencies (example scopes: composer, webpack, go mod)'
+      name: '🛠  build:    改动了构建系统或者外部依赖 (例如: composer, webpack, go mod)'
     },
     {
       value: 'chore',
-      name: '☀️  chore:    Other changes that don\'t modify src or test files'
+      name: '☀️  chore:    除 src 或 test之外的其他改动'
     },
     {
       value: 'refactor',
-      name: '🪓 refactor: A code change that neither fixes a bug nor adds a feature'
+      name: '🪓 refactor: 重构了部分代码'
     },
     {
       value: 'docs',
-      name: '📚 docs:     Documentation only changes'
+      name: '📚 docs:     仅仅改动了文档'
     },
     {
       value: 'test',
-      name: '⚖️  test:     Add missing tests or correcting existing tests'
+      name: '⚖️  test:     改动了测试用例'
     },
     {
       value: 'style',
-      name: '💅 style:    Code Style, Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)'
+      name: '💅 style:    代码风格的改变 (空格/格式化/增加分号 等等)'
     },
     {
       value: 'revert',
-      name: '⏪ revert:   Revert to a commit'
+      name: '⏪ revert:   撤销了某次提交'
     }
   ],
 
