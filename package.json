@@ -1,10 +1,8 @@
 {
   "name": "tnt-commitizen",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "git规范提交的工具",
   "scripts": {
-    "postinstall": "node ./installation/postinstall.js",
-    "postuninstall": "node ./installation/postuninstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
