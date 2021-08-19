@@ -1,6 +1,6 @@
 {
   "name": "tnt-commitizen",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "git规范提交的工具",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -10,7 +10,11 @@ git提交模版，全局安装使用，可以避免在项目中繁琐配置。
 ### 安装
 
 ```bash
-npm i tnt-commitizen @commitlint/cli -g
+npm i tnt-commitizen -g
+
+# 安装 commitlint （可选）
+npm i @commitlint/cli -g
+
 ```
 
 ### 使用

@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { exec } = require('child_process');
+const { exec } = require("child_process");
 const config = require("../.cz-config.js");
 
 if (!fs.existsSync(".git")) {
@@ -54,8 +54,14 @@ inquirer
   .then(answers => {
     if (answers.confirm) {
       exec(`git commit -m "${generateMsg(answers)}"`, (err, stdout, stderr) => {
-        console.log(stderr || stdout);
-       });
+        if (err) {
+          console.error(err);
+        } else if (stderr) {
+          console.error(stderr);
+        } else {
+          console.log(stdout);
+        }
+      });
     }
   });
 
