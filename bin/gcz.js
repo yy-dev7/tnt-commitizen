@@ -54,7 +54,7 @@ inquirer
   .then(answers => {
     if (answers.confirm) {
       exec(`git commit -m "${generateMsg(answers)}"`, (err, stdout, stderr) => {
-        console.log(stdout, stderr)
+        console.log(stderr || stdout);
        });
     }
   });
